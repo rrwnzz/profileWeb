@@ -1,3 +1,56 @@
-.navBar{
+#navBar{
     display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+#navBar>ul{
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+#navBar>ul>li{
+    margin: 20px;
+    font-size: 22px;
+}
+#navBar>ul>li>a{
+    text-decoration: none;
+    color: white
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-top: 50px;
+    text-align: center;
+}
+.card{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.card>button{
+    background-color: burlywood;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+.card>button:hover{
+    background-color: white;
+}
+.backgroundImg{
+    background-color: gray;
+    border-radius: 10%;
+} 
+#footer{
+    background-color:darkgrey;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+#footer>p{
+    font-size: 18px;
+    color: white;
 }
